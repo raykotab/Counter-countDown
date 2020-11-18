@@ -1,0 +1,28 @@
+
+body {
+    background-color: black;
+}
+
+* {
+    text-align: center;
+}
+
+
+label {
+    color: hotpink;
+    font-family: fantasy;
+    font-size: 20px;
+}
+h1 {
+    color: pink;
+    text-align: center;
+    font-size: 90px;
+}
+
+p {
+    color: rgb(2, 255, 2);
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+}
