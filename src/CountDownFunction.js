@@ -1,20 +1,20 @@
 'use strict'
 
-    function resetDemo() {
-    
-        let timeNow = new Date().getTime();
-        console.log(resetedDate);
-        document.getElementById("demo").innerHTML = "timeNow";
-        
+    function resetDemo(date) {
+
+        document.getElementById("date").innerHTML = "";
+        //console.log('llega');
     } 
-    resetDemo();
+    resetDemo("date");
 
     let button = document.getElementById("setEndDate")
 
     button.addEventListener("click", function(e) {
 
-    console.log("button clicked");
-
+    //console.log("button clicked");
+    
+    document.getElementById('setEndDate').disabled = true;
+        
     let endDate = document.getElementById("date").value;
     
     let countDownDate = new Date(endDate).getTime();
